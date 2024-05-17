@@ -169,7 +169,7 @@ def get_photo(path_mp4, path_image):
     # 读帧
     success, frame = videoCapture.read()
     i = 0
-    timeF = 120
+    timeF = 120     #取图片的帧间隔
     j = 0
     while success:
         i = i + 1
